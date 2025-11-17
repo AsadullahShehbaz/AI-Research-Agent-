@@ -1,0 +1,87 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+.env/
+.env.local
+*.env
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# ----------------------------------------
+# FastAPI / Uvicorn / Logs
+# ----------------------------------------
+*.log
+logs/
+uvicorn.log
+
+# ----------------------------------------
+# Testing
+# ----------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# ----------------------------------------
+# VSCode / IDEs
+# ----------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------------------
+# Jupyter
+# ----------------------------------------
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# Docker
+# ----------------------------------------
+docker-data/
+*.tar
+**/.dockerignore
+
+# ----------------------------------------
+# Build files
+# ----------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ----------------------------------------
+# Node (if frontend added later)
+# ----------------------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ----------------------------------------
+# OS files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Configuration / Secrets
+# ----------------------------------------
+config.yaml
+config.yml
+settings.json
+apikey.txt
